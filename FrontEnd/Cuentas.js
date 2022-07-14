@@ -9,16 +9,12 @@ function AgregarCuenta(){
           "Content-Type": "application/json"
         },
         "data": JSON.stringify({
-            "id": $("#id_cuenta").val(),
+            "id_cuenta": $("#id").val(),
             "numero_cuenta": $("#numero_cuenta").val(),
-            "Descripcion": $("#descripcion").val(),
-            "TxtEmail": $("#fecha_ingreso").val(),
+            "descripcion": $("#descripcion").val(),
+            "fecha_ingreso": $("#fecha").val(),
         }),
       };
-      
-      $.ajax(settings).done(function (response) {
-        //console.log(response); 
-        alert("Agregado Correctametne")
-      });
+    
 }
 
