@@ -10,13 +10,15 @@
 <body>
   <section class="form-register">
     <h4>Formulario Agregar Cuenta</h4>
-    <input class="controls" type="number" name="id" id="id" placeholder="id">
+    <input class="controls" type="number" name="id" id="id_cuenta" placeholder="id">
     <input class="controls" type="text" name="numero de Cuenta" id="numero_cuenta" placeholder="numero de Cuenta">
     <input class="controls" type="text" name="Descripcion" id="descripcion" placeholder="Descripcion">
-    <input class="controls" type="date" name="correo" id="fecha" placeholder="Ingrese su Contraseña">
-    <button onclick="AgregarCuenta()" id="registar"> Registrar</button>
+    <input class="controls" type="date" name="correo" id="fecha_ingreso" placeholder="Ingrese su Contraseña">
+    <button type="button" onclick="AgregarCuenta();" id="registar"> Registrar</button>
 
   </section>
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
   <script src="Cuentas.js"></script>
 </body>
 </html>
