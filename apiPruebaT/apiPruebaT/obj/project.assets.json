@@ -5007,11 +5007,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JoseQuixchan\\Desktop\\ppp\\apiPruebaT\\apiPruebaT\\apiPruebaT.csproj",
+      "projectUniqueName": "C:\\Users\\JoseQuixchan\\Documents\\Github\\PruenaTecnicaGS\\apiPruebaT\\apiPruebaT\\apiPruebaT.csproj",
       "projectName": "apiPruebaT",
-      "projectPath": "C:\\Users\\JoseQuixchan\\Desktop\\ppp\\apiPruebaT\\apiPruebaT\\apiPruebaT.csproj",
+      "projectPath": "C:\\Users\\JoseQuixchan\\Documents\\Github\\PruenaTecnicaGS\\apiPruebaT\\apiPruebaT\\apiPruebaT.csproj",
       "packagesPath": "C:\\Users\\JoseQuixchan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JoseQuixchan\\Desktop\\ppp\\apiPruebaT\\apiPruebaT\\obj\\",
+      "outputPath": "C:\\Users\\JoseQuixchan\\Documents\\Github\\PruenaTecnicaGS\\apiPruebaT\\apiPruebaT\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\JoseQuixchan\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+EHrAOyDn9WYPiI7yzaYnl4OAzPg17xpI6XgYHSjoqmnWGZZgjfGXYC02vzaN8MCtps+1JIeoqkleABqQFvotQ==",
+  "dgSpecHash": "2t6fxE03XLZlXH9fR4EixtPCqzaoOX0oq842DDOB25oCWwT0ero4xufgFaWVBc2Okc78MNdgX8++Gfm6g0oWGA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\JoseQuixchan\\Desktop\\ppp\\apiPruebaT\\apiPruebaT\\apiPruebaT.csproj",
+  "projectFilePath": "C:\\Users\\JoseQuixchan\\Documents\\Github\\PruenaTecnicaGS\\apiPruebaT\\apiPruebaT\\apiPruebaT.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\JoseQuixchan\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\JoseQuixchan\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
