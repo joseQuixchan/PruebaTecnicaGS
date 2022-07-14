@@ -17,6 +17,7 @@ namespace apiPruebaT
 {
     public class Startup
     {
+        private readonly string _Mycors = "MyCors";
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -30,6 +31,16 @@ namespace apiPruebaT
             services.AddDbContext<ApplicationDbContext>(Options => Options.UseSqlServer(Configuration.GetConnectionString("DeveloperConnection")));
            
             services.AddControllers();
+            /*Damos soporte para CORS*/
+            services.AddCors(options =>
+            {
+                options.AddPolicy(name: _Mycors, builder =>
+                {
+                    builder.SetIsOriginAllowed(origin => new Uri(origin).Host == "localhost")
+                    .AllowAnyHeader().AllowAnyMethod();
+                });
+            });
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -50,6 +61,10 @@ namespace apiPruebaT
             {
                 endpoints.MapControllers();
             });
+
+            /*app.UseCors(x => x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());*/
+            app.UseCors(_Mycors);
+
         }
     }
 }
